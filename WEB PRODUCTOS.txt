@@ -1,0 +1,106 @@
+
+
+para crear vinculos a otras paginas se realiza con la etiqueta:
+
+<a href="">referencia</a>
+
+
+para navegar en una lista y no impactar a otra podemos yutilizar la etiqueta 
+<nav></nav>
+
+text-transform: uppercase transformación del texto a mayúscula
+
+para evitar que el navegador modifique nuestro codigo por sus configuraciones utilizamos el archivo
+
+reset.css
+
+Etiqueta main = principal, Las etiquetas semánticas hacen que el navegador entienda mejor nuestro contenido, y con eso cargue mejor nuestra página.
+
+box-sizing: border-box; para regular bordes que no ocupe el % que utilizamos de la pantalla
+
+hover  : captura el movimiento del usuario 
+active : captura el click
+
+ESTRUCTURA BASICA DE UN FORMULARIO
+
+<form>  
+                    <label for="nombreapellido">Nombre y Apellido</label> // etiqueta nombre y apellido
+                    <input type="text" id="nombreapellido"> 		// caja de texto
+
+                    <label for="correoelectronico">Correo Electronico</label> // etiqueta correo electronico
+                    <input type="text" id="correoelectronico">		// caja de texto
+
+                    <label for="telefono">Telefono</label>		// etiqueta Telefono
+                    <input type="text" id="telefono">            	// caja de texto
+
+                    <input type="submit">				// boton enviar
+                </form>
+
+
+JERARQUIA DE ITEMS
+
+INLINE
+ID
+CLASS
+ETIQUETA
+
+etiqueta <fieldset></fielset> se utiliza para agrupar datos ejemplo // datos de TC en paginas como amazon spotify etc 
+
+Algunos tipos de inputs para el celular: email, tel, number, password, date, datetime, month y search.
+
+Cómo configurar campos obligatorios, o sea, exigir al usuario para que algunos campos sean completados, a través del atributo required.
+
+Cómo mostrar una sugerencia para completar los campos, a través del atributo placeholder.
+
+Cómo dejar una opción marcada por padrón en nuestros input radio y checkbox a través del atributo checked.
+
+Cómo estructurar mejor nuestro código con fieldset y legend.
+
+Cómo agregar una alternativa a la imagen, describiéndola, con el atributo alt.
+
++++++++++++++++++++++++++++++PARA CREAR TABLA 
+
+USAMOS <table></table>	
+etiqueta <tr> para marcar la fila de una tabla.
+etiqueta <td> para marcar una columna de una tabla.
+<thead></thead> cabeza de la tabla, encabezado
+<th></th> para celdas que pertenezcan al encabezado
+<tbody></tbody> cuerpo de la tabla
+
+
+para exportar libreria de tipografias
+
+https://fonts.google.com/
+
+para exportar mapa
+
+googlemaps
+
++++++++++++++++++++++++++++++++++++++++++++++PSEUDOCLASES+++++++++++++++++++++++++++++++++++++++++++++++++	
+
+para dejar en negrita la primera frase de una lista 
+.items:first-child{
+    font-weight: bold;
+}
+
+la ultima .items:last-child{
+    font-weight: bold;
+}
+
+algun numero en especial
+
+.items:nth-child(1,2,3 3n){
+    font-weight: bold;
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++Selectores avanzados, +++++++++++++++++++++++++++++++++++++++++++++++++
+
+como su nombre lo dice, son recursos de CSS 3 que nos permiten seleccionar, capturar elementos en forma rebuscada, en forma específica y en forma granular.
+
+section > p + h2
+
+¡Alternativa correcta! El último h2 es hijo directo de la section y hermano del p.
+
+
+
+Voy a hacer clic aquí en la parte superior de GitHub y pulsar el botón del punto. Así va a cargar una página del editor en línea del Visual Studio Code, que es un editor muy utilizado por las personas desarrolladoras donde desarrollamos nuestras aplicaciones.
